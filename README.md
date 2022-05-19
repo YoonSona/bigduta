@@ -123,7 +123,7 @@ df = pd.drop('column_name', axis=1)
 ```
 ```
 #приведение типов
-#https://qastack.ru/programming/15891038/change-data-type-of-columns-in-pandas
+#https://qastack.ru/programming/15891038/change-data-type-of-columns-in-pandas/pickup_datetime and dropoff_datetime
 df['column_name']=pd.to_datetime(df['column_name'])
 ```
 
